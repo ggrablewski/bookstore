@@ -17,7 +17,7 @@ public class CatalogService {
         storage.put(2L, new Book(2L, "Podręcznik Wojownika Światła", "Paulo Coelho", 2002));
         storage.put(3L, new Book(3L, "Dziady", "Adam Mickiewicz", 1808));
         storage.put(4L, new Book(4L, "Treny", "Jan Kochanowski", 1580));
-        storage.put(5L, new Book(5L, "Hamlet", "Wiliam Shaakespeare", 1602));
+        storage.put(5L, new Book(5L, "Hamlet", "Wiliam Shakespeare", 1602));
     }
 
     List<Book> findByTitle(String title) {
